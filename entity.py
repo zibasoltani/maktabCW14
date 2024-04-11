@@ -26,7 +26,7 @@ class Instructor(Entity):
 
 
 class Department(Entity):
-    def __init__(self, id,  name):
+    def __init__(self, id, name):
         super().__init__(id)
         self.name = name
 
