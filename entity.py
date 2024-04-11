@@ -11,7 +11,7 @@ class Student(Entity):
 
 
 class Course(Entity):
-    def __init__(self,title, number_of_credits):
+    def __init__(self, title, number_of_credits):
         super().__init__(id)
         self.title = title
         self.number_of_credits = number_of_credits
